@@ -1,0 +1,37 @@
+* Freies Wissen im digitalen Zeitalter
+** Zivis raus lol
+** Bombenbauanleitung lol
+** DVD-CSS
+** PS3 & Blue Ray
+** CCC & µC³ Vorstellen
+*** Was ist für uns ein Hacker
+**** http://koeln.ccc.de/prozesse/writing/artikel/hacker-howto-esr.xml
+*** Folien gibt es schon
+** Geschichte
+*** Mündliche Übertragung
+*** Buch manuell abschreiben
+*** Buchdruck
+*** Geistiges Eigentum wird erfunden
+*** Internet
+*** Freie Software und CC
+
+** Wichtige Themen im dig. Zeitalter
+*** Zugang
+**** z.B. Sperrung in Aegypten, Sperren in D. Hartz4 Fernseher vs. Rechner
+*** Möglichkeit zu frei publizieren ohne Zensur / freie Rede
+*** Anonymität
+*** Vertrauliche Kommunikation
+
+** Ideen
+  + patente
+  + copyright
+  + free speech
+  + free software
+  + freie netze/infrastruktur wie freifunk
+  + p2p/darknet/i2p/etc
+  + OpenAccess
+  + Bombenbauanleitung als einleitung
+  + TOR
+  + Wikileaks
+  + Wikipedia
+
