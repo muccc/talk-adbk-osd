@@ -283,6 +283,7 @@ section, footer {
   margin: 100px 30px 0;
   display: block;
   overflow: hidden;
+  font-size: 1.5em;
 }
 
 footer {
