@@ -8,12 +8,36 @@
 **** http://koeln.ccc.de/prozesse/writing/artikel/hacker-howto-esr.xml
 *** Folien gibt es schon
 ** Geschichte
+   Kleine Chronologie der Informationsverbereitungs- und
+   vervielfältigungsmethoden. Ältere Methoden werden weiterhin
+   verwendet.
 *** Mündliche Übertragung
-*** Buch manuell abschreiben
+    + vor 50.000 Jahren vollentwickelte Sprache
+*** Schriftliche Übertragung
+    Um -3000 wurden ägyptische Hieroglyphen und Sumerische Keilschrift
+    entwickelt (+ Bild?)
 *** Buchdruck
-*** Geistiges Eigentum wird erfunden
+    1450 Buchdruck mit beweglichen Lettern in Europa durch Gutenberg
+    erlaubt Massenvervielfältigung von Information
+*** Geistiges Eigentum wird erfunden 
+    ab 1400 (http://de.wikipedia.org/wiki/Geistiges_Eigentum)
+    Vorläufer von Patentrecht und Urheberrecht
+*** Audio Aufnahme und Wiedergabe
+    1877 Edison "Phonograph"
+*** Video Aufnahme und Wiedergabe
+    1888 Louis Le Prince
+*** Öffentlicher Rundfunk
+    1923
+*** TV
+    1926
 *** Internet
-*** Freie Software und CC
+    in den 1970ern aufgekommen
+*** World Wide Web
+    1993 entwickelt
+*** "Web 2.0"
+    Begriff 2003 zum ersten mal erwähnt
+    + Mehr interaktion z.B. über Kommentare, Posten von Inhalten,
+      unterstützen durch kleine Spenden, Mashups (Remix)
 
 ** Wichtige Themen im dig. Zeitalter
 *** Zugang
@@ -30,7 +54,6 @@
   + freie netze/infrastruktur wie freifunk
   + p2p/darknet/i2p/etc
   + OpenAccess
-  + Bombenbauanleitung als einleitung
   + TOR
   + Wikileaks
   + Wikipedia
