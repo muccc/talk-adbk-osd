@@ -49,6 +49,18 @@
               font-size: 0.7em;
               line-height: 0;
             }
+            ul {
+              list-style-type: none;
+            }
+            ul li:before {
+              content: "» ";
+            }
+            li.authors:before {
+              content: "";
+            }
+            section {
+              font-size: 1.3em;
+            }
           </style>
           <section class="middle">
             <p style="font-size: 2.2em">Freies Wissen im Informationszeitalter aus der Hackerperspektive
@@ -273,8 +285,8 @@
             <section>
                 <ul>
                     <li>kreativer Umgang mit Technik (playful cleverness)</li>
-                    <li>mehrere Subkulturen</li>
                     <li>bauen statt zerst&ouml;ren</li>
+                    <li>mehrere Subkulturen</li>
                 </ul>
             </section>
         </div>
@@ -334,7 +346,7 @@
                 <img src="acab2.jpg" width="250">
             </p>
             <ul>
-                <li>gegr&uuml;ndet 1998, 90 Mitglieder</li>
+                <li>gegr&uuml;ndet 1998, ca. 90 Mitglieder</li>
                 <li>Hackerspace in der Balanstrasse 166 (Giesing)</li>
                 <li>jeden zweiten Dienstag im Monat &ouml;ffentliches Treffen</li>
                 <li>Aktuelle Projekte
@@ -399,10 +411,21 @@
             </section>
         </div>
 
+        <div class="slide" id="knowledge-">
+            <header>Einschr&auml;nkung von Wissen</header>
+            <section>
+                <img src="Internet_blackholes.svg" width="800" style="float: center;"/><br />
+                <span style="color: blue;">No censorship</span>
+                <span style="color: yellow;">Some censorship</span>
+                <span style="color: red;">Country under surveillance</span><br />
+                <span style="color: black">Most heavily censored nations</span>
+            </section>
+        </div>
+
         <div class="slide" id="knowledge-foo">
             <header>Einschr&auml;nkung von Wissen</header>
             <section>
-                <ul>
+                <ul data-build>
                     <li>Fehlende Zugriffm&ouml;glichkeit</li>
                     <li>Kommunikationsbeschr&auml;nkung</li>
                     <li>Zensur</li>
