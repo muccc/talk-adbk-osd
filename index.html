@@ -65,8 +65,8 @@
           <section class="middle">
               <p style="font-size: 2.2em">Freies Wissen<br>aus der Hackerperspektive
                 <ul id="authors">
-                    <li>Raffael Mancini &lt;raffael.mancini@hcl-club.lu&gt;</li>
-                    <li>Franz Pletz &lt;fpletz@fnordicwalking.de&gt;</li>
+                    <li>Raffael Mancini <a href="mailto:raffael.mancini@hcl-club.lu">&lt;raffael.mancini@hcl-club.lu&gt;</a></li>
+                    <li>Franz Pletz <a href="https://twitter.com/fpletz">@fpletz</a> <a href="mailto:fpletz@fnordicwalking.de">&lt;fpletz@fnordicwalking.de&gt;</a></li>
                     <li></li>
                     <li><b>Chaos Computer Club M&uuml;nchen e.V.</b></li>
                     <li><li>
@@ -318,8 +318,10 @@
                 <img src="datenschleuder-logo-192x192.jpg" width="192">
             </p>
             <ul>
-                <li>gegr&uuml;ndet 1984, 2342 Mitglieder
-                <li>Zusammenschluss von Hackern in Deutschland</li>
+                <li>gegr&uuml;ndet 1984, Verein 1986, 2342 Mitglieder
+                <li>Dezentraler Zusammenschluss von deutschen Hackern</li>
+                <li>Hacks: BTX, NASA/KGB, GSM, Blinkenlights</li>
+                <li>Veranstaltungen: Congress, Easterhegg, Camp...</li>
                 <li>Aktuelle Themen:
                     <ul>
                         <li>Biometrie</li>
@@ -348,7 +350,9 @@
             <ul>
                 <li>gegr&uuml;ndet 1998, ca. 90 Mitglieder</li>
                 <li>Hackerspace in der Balanstrasse 166 (Giesing)</li>
-                <li>jeden zweiten Dienstag im Monat &ouml;ffentliches Treffen</li>
+                <li>jeden zweiten Dienstag im Monat &ouml;ffentliches Treffen
+                    (n&auml;chste Woche, kommt vorbei!)
+                </li>
                 <li>Aktuelle Projekte
                     <ul>
                         <li>Moodlamp</li>
@@ -411,17 +415,6 @@
             </section>
         </div>
 
-        <div class="slide" id="knowledge-">
-            <header>Einschr&auml;nkung von Wissen</header>
-            <section>
-                <img src="Internet_blackholes.svg" width="800" style="float: center;"/><br />
-                <span style="color: blue;">No censorship</span>
-                <span style="color: yellow;">Some censorship</span>
-                <span style="color: red;">Country under surveillance</span><br />
-                <span style="color: black">Most heavily censored nations</span>
-            </section>
-        </div>
-
         <div class="slide" id="knowledge-foo">
             <header>Einschr&auml;nkung von Wissen</header>
             <section>
@@ -449,9 +442,24 @@
             </section>
         </div>
 
+        <div class="slide" id="knowledge-">
+            <header>Einschr&auml;nkung von Wissen</header>
+            <section style="text-align: center">
+                <img src="Internet_blackholes.svg" width="800" style="float: center;"/><br />
+                <span style="color: blue;">No censorship</span><br/>
+                <span style="color: yellow;">Some censorship</span><br/>
+                <span style="color: red;">Country under surveillance</span><br />
+                <span style="color: black">Most heavily censored nations</span>
+            </section>
+        </div>
+
         <div class="slide" id="knowledge-access">
             <header>Fehlende Zugriffsm&ouml;glichkeit</header>
             <section>
+                <p style="float: right; text-align: right;">
+                    <img src="Freifunk.net.svg" width="200"><br>
+                    <img src="Wikileaks_logo.svg" width="150">
+                </p>
                 <ul>
                     <li>Alternative Netze aufbauen</li>
                         <ul>
@@ -471,12 +479,16 @@
         <div class="slide" id="knowledge-comm">
             <header>Kommunikationsbeschr&auml;nkung</header>
             <section>
+                <p style="float: right; text-align: right;">
+                    <img src="ssl.png" width="250"><br>
+                    <img src="GnuPG.svg" width="250">
+                </p>
                 <ul>
                     <li>Verschl&uuml;sselung benutzen</li>
                         <ul>
                             <li>HTTPS</li>
                             <li><a href="http://www.gnupg.org/">GnuPG</a></li>
-                            <li><a href="http://www.cypherpunks.ca/otr/">OTR</a></li>
+                            <li><a href="http://www.cypherpunks.ca/otr/">Off-the-Record Messaging (OTR)</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -486,16 +498,26 @@
         <div class="slide" id="knowledge-censor">
             <header>Zensur</header>
             <section>
+                <p style="float: right; text-align: right;">
+                    <img src="tor-logo.jpg" width="150"><br>
+                    <img src="btlogo.gif" width="250"><br>
+                    <img src="i2plogo.png" width="250"><br>
+                    <img src="Freenet_logo.svg" width="250">
+                </p>
                 <ul>
                     <li>Im Ausland hosten und/oder mirrorn</li>
-                    <li>VPN-Tunnel</li>
-                    <li><a href="http://www.torproject.org/">Tor</a></li>
-                    <li>Peer-to-Peer-Netze (P2P)
+                    <li>Getunnelte Kommunikation (VPN)
+                        <ul>
+                            <li><a href="http://openvpn.net">OpenVPN</a></li>
+                            <li><a href="http://www.torproject.org/">Tor</a></li>
+                        </ul>
+                    </li>
+                    <li>Verteilung &uuml;ber Peer-to-Peer-Netze (P2P)
                         <ul>
                             <li><a href="http://www.bittorrent.com/">BitTorrent</a></li>
                         </ul>
                     </li>
-                    <li>Darknet
+                    <li>Netz im Netz oder Darknet
                         <ul>
                             <li><a href="http://www.i2p2.de/">I2P</a></li>
                             <li><a href="http://freenetproject.org/">Freenet</a></li>
@@ -508,9 +530,11 @@
         <div class="slide" id="knowledge-ip">
             <header>Geistiges Eigentum</header>
             <section>
-                <div style="float: right;">
-                  <img src="copyleft.png" /><br/><br/><br/>
-                  <img src="cc-logo.png" width="200" />
+                <div style="float: right; text-align: right;">
+                  <img src="copyleft.png" width="170" /><br/><br/>
+                  <img src="cc-logo.png" width="200" /><br/><br/>
+                  <img src="fsf.png" width="300" /><br/><br/>
+                  <img src="oa.gif" />
                 </div>
                 <ul>
                     <li>Freie Lizenzen f&uuml;r selbsterstellten Content benutzen
@@ -531,14 +555,39 @@
             </section>
         </div>
 
-        <div class="slide" id="sources">
+        <div class="slide" id="conclusion">
+            <header>Zusammenfassung</header>
+            <section>
+            <blockquote>
+                The Internet treats censorship as a malfunction and routes around it.<br>
+                <span style="float: right">&#8210; John Perry Barlow (EFF)</span>
+            </blockquote>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <ul data-build>
+                <li>Internet und Technologie sehr offen gestaltet</li>
+                <li>Viele, jedoch aufw&auml;ndige M&ouml;glichkeiten um Restriktionen zu umgehen</li>
+                <li><em>Kernproblem:</em> ausufernde staatliche und wirtschaftliche Kontrolle</li>
+                <li>Wir arbeiten an einem Umdenken in der Gesellschaft</li>
+            </ul>
+            </section>
+        </div>
+
+        <div class="slide" id="end">
+            <header></header>
+            <section style="text-align: center;">
+                <p style="margin-top: 150px; font-size: 3.5em;">Danke f&uuml;r eure Aufmerksamkeit</p>
+            </section>
+        </div>
+
+        <!--div class="slide" id="sources">
             <header>Quellen</header>
             <section>
                 <ul>
                     <li>http://en.wikipedia.org/wiki/File:Internet_blackholes.svg</li>
                 </ul>
             </section>
-        </div>
+        </div-->
 
       </div> <!-- slides -->
 
